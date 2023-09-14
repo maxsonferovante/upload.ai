@@ -35,7 +35,7 @@ Estas tecnologias de ponta foram escolhidas para garantir uma experiência de us
 ## Próximos Passos:
 
 Estamos empolgados em anunciar que em breve estaremos realizando o deploy da aplicação para testes de terceiros. Fique atento para experimentar nossa IA e nos fornecer feedback valioso à medida que continuamos a aprimorar e expandir este projeto.
----
+
 
 <p align="center">
   Feito em conjunto com a Rocketseat.
@@ -45,11 +45,5 @@ Estamos empolgados em anunciar que em breve estaremos realizando o deploy da apl
 
 <br />
 <br />
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
 
 <!--END_SECTION:footer-->
