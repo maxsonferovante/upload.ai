@@ -12,6 +12,9 @@
 Aplicação que possibilita realizar upload de videos e por meio de IA, criar automaticamente títulos chamativos e descrições com um boa indexação.
 
 ![Design do Projeto](./exemple.gif)
+
+
+
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
@@ -33,13 +36,12 @@ TypeScript
 
 Estas tecnologias de ponta foram escolhidas para garantir uma experiência de usuário fluida e uma base sólida para o desenvolvimento de recursos futuros.
 
-## Próximos Passos:
+## Deploy
 
-Estamos empolgados em anunciar que em breve estaremos realizando o deploy da aplicação para testes de terceiros. Fique atento para experimentar nossa IA e nos fornecer feedback valioso à medida que continuamos a aprimorar e expandir este projeto.
-
+Acesse a aplicação [aqui](https://upload-ai-zeta.vercel.app/)
 
 <p align="center">
-  Feito em conjunto com a Rocketseat.
+  Feito por Maxson (NLY - Rocketseat Education).
 </p>
 
 <!--START_SECTION:footer-->
