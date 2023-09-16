@@ -19,5 +19,8 @@ app.register(generateAiCompletionRoute)
 app.listen({
   port: 3333
 }).then(() => {
-  console.log('HTTP Server Running!')
+  console.log('HTTP Server Running in port 3333!')
+}).catch((err) => {
+  console.error(err)
+  process.exit(1)
 })

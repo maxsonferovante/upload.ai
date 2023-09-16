@@ -31,6 +31,32 @@ Transcrição:
 
   await prisma.prompt.create({
     data: {
+      title: 'Resumo YouTube',
+      template: `Seu papel é gerar um resumo de 10 linhas para um vídeo do YouTube.
+
+Abaixo você receberá uma transcrição desse vídeo, use essa transcrição para gerar o resumo.
+Abaixo você também receberá uma lista de títulos, use essa lista como referência para o reusmo a ser gerado.
+
+Os resumos devem ter no máximo 1000 caracteres.
+Os resumos devem ser chamativos e atrativos para maximizar os cliques.
+
+Retorne APENAS um resumo em formato de paragrafos como no exemplo abaixo:
+'''
+paragrafo do resumo.
+Outro paragrafo do resumo.
+Outro paragrafo do resumo.
+
+'''
+
+Transcrição:
+'''
+{transcription}
+'''`.trim()
+    }
+  })
+
+  await prisma.prompt.create({
+    data: {
       title: 'Descrição YouTube',
       template: `Seu papel é gerar uma descrição sucinta para um vídeo do YouTube.
   

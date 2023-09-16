@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "seed": "tsx prisma/seed.ts"
   },
   "keywords": [],
   "author": "",
@@ -13,8 +14,8 @@
     "seed": "tsx prisma/seed.ts"
   },
   "devDependencies": {
-    "@types/node": "^20.6.0",
-    "prisma": "^5.2.0",
+    "@types/node": "^20.6.2",
+    "prisma": "^5.3.1",
     "tsx": "^3.12.8",
     "typescript": "^5.2.2"
   },
